@@ -49,28 +49,27 @@ int main() {
     int hasilkurang = kurang(x, y);
     cout << "Hasil pengurangan    : " << hasilkurang << endl;
 
-
     // Jumlah Array
     cout << "\nJumlah Array" << endl;
-    cout << "Masukkan jumlah elemen array  : ";
+    cout << "Masukkan jumlah elemen pada array : ";
     cin >> n;
     for (int i = 0; i < n; i++) {
-        cout << "Masukkan elemen ke-" << i+1 << " : ";
+        cout << "Masukkan elemen ke-" << i + 1 << " : ";
         cin >> arr[i];
     }
     int total = hitungjumlah(arr, n);
-    cout << "Total nilai dari array adalah : " << total << endl;
+    cout << "Hasil dari jumlah nilai array array adalah : " << total << endl;
 
     // Rata-Rata Array
     cout << "\nRata-Rata Array" << endl;
-    cout << "Masukkan jumlah elemen array : ";
+    cout << "Masukkan jumlah elemen pada array  : ";
     cin >> n;
     for (int i = 0; i < n; i++) {
-        cout << "Masukkan elemen ke-" << i+1 << " : ";
+        cout << "Masukkan elemen ke-" << i + 1 << " : ";
         cin >> arr[i];
     }
     float rata = hitungrata(arr, n);
-    cout << "Rata-rata dari array adalah  : " << rata << endl;
+    cout << "Hasil dari rata-rata array adalah  : " << rata << endl;
 
     return 0;
 }
